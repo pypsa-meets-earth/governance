@@ -209,3 +209,11 @@ Contributors can step down to a lower role or request emeritus status by contact
 ---
 
 **NOTE:** The current list of maintainers and Steering Committee members is maintained in [MAINTAINERS](MAINTAINERS.md).
+
+
+## Definitions
+
+### Supermajority
+A supermajority is defined as two-thirds of members in the group (66%). A supermajority of Maintainers is required for certain decisions as outlined above. Voting on decisions can happen on the mailing list, GitHub, Slack, email, or via a voting service, when appropriate. Maintainers can either vote "agree, yes, +1", "disagree, no, -1", or "abstain". A vote passes when supermajority is met. An abstain vote equals not voting at all.
+
+

@@ -1,4 +1,3 @@
-
 # PyPSA-meets-Earth Governance
 
 This document defines the governance structure for the PyPSA-meets-Earth initiative, inspired by the Flyte project.
@@ -7,13 +6,17 @@ This document defines the governance structure for the PyPSA-meets-Earth initiat
 
 PyPSA-meets-Earth is a collaborative open source initiative dedicated to building a transparent, inclusive, and reproducible energy system modeling ecosystem, leveraging the PyPSA framework and contributing to the broader scientific and policy discourse around sustainable transitions. This document outlines how the community collaborates and governs to achieve these goals.
 
-## Community Roles and Path to Maintainership
+## Decision Making: Lazy Consensus
 
-The following table lists the roles within the PyPSA-meets-Earth community, describing:
+Most decisions in PyPSA-meets-Earth are made using **lazy consensus**: if no one objects within a reasonable period (typically 5-7 days), the proposal is accepted. Only in rare cases where consensus cannot be reached, a more formal vote may be called (see "Supermajority" below).
+
+## Community Roles and Path to Maintainer
+
+Roles apply equally to code and non-code activities (e.g., documentation, community, tools, streams). The following table lists the roles within the PyPSA-meets-Earth community, describing:
 
 - General responsibilities expected by individuals in each role
 - Requirements necessary to join or remain in a role
-- Associated permissions and privileges
+- Associated access rights
 
 <table>
   <thead>
@@ -21,133 +24,103 @@ The following table lists the roles within the PyPSA-meets-Earth community, desc
       <th>Role</th>
       <th>Responsibilities</th>
       <th>Requirements</th>
-      <th>Privileges</th>
+      <th>Access Rights</th>
       <th>Scope</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Community Member</td>
+      <td>Participant</td>
       <td>
         <ul>
           <li>Follow the <a href="https://lfprojects.org/policies/code-of-conduct/">Code of Conduct</a></li>
+          <li>Engage in discussions, submit issues and PRs, contribute to code or non-code streams</li>
         </ul>
       </td>
       <td>None</td>
       <td>
         <ul>
           <li>Can submit PRs and issues from forks</li>
-          <li>Can join the PyPSA-meets-Earth Discord channel</li>
+          <li>Can join the PyPSA-meets-Earth Discord channel (<a href="https://discord.gg/AnuJBk23FU">join here</a>)</li>
           <li>Can take part in community discussions</li>
         </ul>
       </td>
       <td>GitHub organization</td>
     </tr>
-    <tr><td colspan="5"><em>Inherits from Community Member</em></td></tr>
+    <tr><td colspan="5"><em>Inherits from Participant</em></td></tr>
     <tr>
-      <td>Collaborator</td>
+      <td>Contributor</td>
       <td>
         <ul>
-          <li>Report and resolve issues</li>
+          <li>Report and help resolve issues</li>
           <li>Answer community questions</li>
-          <li>Submit feedback on issues/PRs</li>
+          <li>Review and provide feedback on issues/PRs</li>
+          <li>Contribute to code, documentation, tools, or community streams</li>
         </ul>
       </td>
       <td>
-      <p><b>One or several of the below:</p></b>
-          <p>Attend community meetings regularly</p>
-          <p>At least a merged contribution</p> 
-          <p>Active on Slack posting/answering questions</p>
-          <p>Promote the project creating content/delivering talks/demos</p>     
+        <ul>
+          <li>Active participation (e.g., merged contribution, regular discussion, or content creation)</li>
+        </ul>
       </td>
       <td>
         <ul>
-          <li>Can submit PR reviews</li>
+          <li>Can review PRs</li>
           <li>May close/open/reassign issues</li>
           <li>May request PR reviews</li>
           <li>Can mark duplicates</li>
         </ul>
       </td>
-      <td>Specific repo(s) under pypsa-meets-earth</td>
+      <td>Specific repo(s) or streams under pypsa-meets-earth</td>
     </tr>
-    <tr><td colspan="5"><em>Inherits from Collaborator</em></td></tr>
-    <tr>
-      <td>Committer</td>
-      <td>
-        <ul>
-          <li>Follow contributing guide</li>
-          <li>Occasionally submit PRs</li>
-          <li>Test releases, review PRs</li>
-          <li>Triage issues</li>
-          <li>Join working groups</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>Multiple PRs merged</li>
-          <li>Run/organize events</li>
-          <li>Public promotion</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>Request changes</li>
-          <li>Review/approve (non-binding) PRs</li>
-          <li>Merge approved PRs</li>
-          <li>Create/edit releases</li>
-          <li>Push branches</li>
-        </ul>
-      </td>
-      <td>Specific repo(s) under pypsa-meets-earth</td>
-    </tr>
-    <tr><td colspan="5"><em>Inherits from Committer</em></td></tr>
+    <tr><td colspan="5"><em>Inherits from Contributor</em></td></tr>
     <tr>
       <td>Maintainer</td>
       <td>
         <ul>
-          <li>Ensure quality & alignment</li>
+          <li>Guide project direction and quality</li>
           <li>Help cut releases</li>
           <li>Mentor contributors</li>
+          <li>Review and merge PRs</li>
+          <li>Coordinate across streams (code, docs, tools, community)</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Must be a contributor</li>
-          <li>Active, experienced reviewer</li>
+          <li>Consistent, high-quality contributions</li>
           <li>Broad project knowledge</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Approve PRs (binding)</li>
-          <li>Merge PRs</li>
-          <li>Vote on RFCs (non-binding)</li>
-          <li>Publicly represent project</li>
+          <li>Approve and merge PRs</li>
+          <li>Manage releases</li>
+          <li>Moderate discussions</li>
+          <li>Vote on major decisions (if needed)</li>
         </ul>
       </td>
-      <td>Specific repo(s) under pypsa-meets-earth</td>
+      <td>Specific repo(s) or streams under pypsa-meets-earth</td>
     </tr>
-    <tr><td colspan="5"><em>Inherits from Collaborator</em></td></tr>
+    <tr><td colspan="5"><em>Inherits from Maintainer</em></td></tr>
     <tr>
       <td>Steering Committee</td>
       <td>
         <ul>
           <li>Set roadmap/priorities</li>
-          <li>Mentor contributors/maintainers</li>
-          <li>Vote on governance, roles, RFCs</li>
+          <li>Mentor contributors/Maintainers</li>
+          <li>Vote on governance, roles, RFCs (if consensus fails)</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Must be a maintainer</li>
+          <li>Must be a Maintainer</li>
           <li>Highly active in multiple areas</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Org-wide permissions</li>
-          <li>Binding vote on RFCs</li>
-          <li>Represent project externally</li>
+          <li>Org-wide access rights</li>
+          <li>Binding vote on RFCs (if needed)</li>
         </ul>
       </td>
       <td>GitHub organization</td>
@@ -157,63 +130,59 @@ The following table lists the roles within the PyPSA-meets-Earth community, desc
 
 ## Role Description and Processes
 
-### Community Participant
+### Participant
 
 Anyone can contribute by using PyPSA-meets-Earth tools, providing feedback, joining discussions, submitting issues and PRs, or helping others.
 
-### Collaborator
+### Contributor
 
-Collaborators actively engage with the community and support others.
+Contributors actively engage with the community and support others across all streams (code, docs, tools, community).
 
-#### Nomination Process
+#### Becoming a Contributor
 
-1. Open an issue in the community repo using the `collaborator-nomination` label.
-2. Assign current maintainers as reviewers.
-3. Approval requires a supermajority of repo maintainers within 14 days.
-4. Accepted collaborators will be added to the GitHub organization with appropriate permissions.
+- Participate actively (e.g., merged PR, regular discussion, or content creation).
+- Recognition is informal and based on ongoing participation.
 
-### Committer
+### Maintainer
 
-Committers are regular contributors with write access.
+Maintainers manage daily project contributions, review PRs, and ensure quality across all streams.
 
 #### Nomination Process
 
-1. Open an issue in the community repo using the `committer-nomination` label.
-2. Assign current maintainers as reviewers.
-3. Approval requires a supermajority of repo maintainers within 14 days.
-4. Accepted committers will be granted write access to the scoped repositories.
-
-### Maintainers
-
-Maintainers manage daily project contributions, review PRs, and ensure quality.
-
-> Note: Maintainer responsibilities may require significant time and commitment. To avoid burnout, current maintainers are working on processes to reduce barriers and distribute responsibilities.
+1. Open an issue in the community repo using the `maintainer-nomination` label.
+2. Assign current Maintainers as reviewers.
+3. Approval is by lazy consensus (if no objections in 7 days, nomination is accepted).
+4. If consensus cannot be reached, a supermajority vote of Maintainers may be called.
 
 #### Removal or Resignation
 
-Maintainers may step down voluntarily or be removed by supermajority vote due to inactivity or other circumstances.
+Maintainers may step down voluntarily or be removed by lazy consensus (or supermajority vote if needed) due to inactivity or other circumstances.
 
 ### Steering Committee
 
-Responsible for strategic direction, cross-repo concerns, and governance decisions. Duties include:
+Responsible for strategic direction, cross-repo/stream concerns, and governance decisions. Duties include:
 
-- Reviewing proposals for new sub-projects
+- Reviewing proposals for new sub-projects or streams
 - Establishing Working Groups
 - Approving governance and role changes
-- Voting on significant RFCs
+- Voting on significant RFCs (if consensus fails)
 
 ## Stepping Down / Emeritus Process
 
-Contributors can step down to a lower role or request emeritus status by contacting the maintainers.
+Contributors can step down to a lower role or request emeritus status by contacting the Maintainers.
 
 ---
 
-**NOTE:** The current list of maintainers and Steering Committee members is maintained in [MAINTAINERS](MAINTAINERS.md).
-
+**NOTE:** The current list of Maintainers and Steering Committee members is maintained in [MAINTAINERS](MAINTAINERS.md).
 
 ## Definitions
 
+### Lazy Consensus
+
+A decision-making process where a proposal is accepted if no one objects within a set period (usually 5-7 days). Objections should be accompanied by reasoning and, ideally, alternatives.
+
 ### Supermajority
-A supermajority is defined as two-thirds of members in the group (66%). A supermajority of Maintainers is required for certain decisions as outlined above. Voting on decisions can happen on the mailing list, GitHub, Slack, email, or via a voting service, when appropriate. Maintainers can either vote "agree, yes, +1", "disagree, no, -1", or "abstain". A vote passes when supermajority is met. An abstain vote equals not voting at all.
+
+A supermajority is defined as two-thirds of members in the group (66%). Used only if lazy consensus fails. Voting can happen on the mailing list, GitHub, Discord, email, or via a voting service, when appropriate. Members can either vote "agree, yes, +1", "disagree, no, -1", or "abstain". A vote passes when supermajority is met. An abstain vote equals not voting at all.
 
 

@@ -82,7 +82,7 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
           <li>Help cut releases</li>
           <li>Mentor contributors</li>
           <li>Review and merge PRs</li>
-          <li>Coordinate across streams (code, docs, tools, community)</li>
+          <li>Coordinate with other streams (code, docs, tools, community)</li>
         </ul>
       </td>
       <td>

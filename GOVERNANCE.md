@@ -13,6 +13,9 @@ The PyPSA-meets-Earth initiative is organized in multiple streams each having, e
 - **Advisory Streams**: streams focused on providing expert guidance, feedback, and mentorship from institutions, companies and experts to support the initiative’s direction, scientific rigor, and alignment with broader community and policy goals.
 - **Steering Committee**: it is a special stream responsible for strategic direction, cross-repo/stream concerns, and governance decisions.
 
+![](https://github.com/pypsa-meets-earth/governance/blob/first-ideas-revision/imgs/pme_organization.png)
+
+
 ## Decision Making: Lazy Consensus
 
 Most decisions in PyPSA-meets-Earth are made using **lazy consensus**: if no one objects within a reasonable period (typically 5-7 days), the proposal is accepted. Only in rare cases where consensus cannot be reached, a more formal vote may be called (see "Supermajority" below).

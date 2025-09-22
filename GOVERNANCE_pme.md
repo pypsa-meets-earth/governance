@@ -83,6 +83,7 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
           <li>Mentor contributors</li>
           <li>Review and merge PRs</li>
           <li>Coordinate with other streams (e.g. PyPSA-Earth, Outreach, etc.)</li>
+          <li>Actively engages in users support</li>
         </ul>
       </td>
       <td>

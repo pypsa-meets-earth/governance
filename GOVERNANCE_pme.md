@@ -6,11 +6,28 @@ This document defines the governance structure for the PyPSA-meets-Earth initiat
 
 PyPSA-meets-Earth is a collaborative open source initiative dedicated to building a transparent, inclusive, and reproducible energy system modeling ecosystem, leveraging the PyPSA framework and contributing to the broader scientific and policy discourse around sustainable transitions. This document outlines how the community collaborates and governs to achieve these goals.
 
+## Streams (Working Groups)
+
+To support the diverse activities within PyPSA-meets-Earth, the community is organized into Streams (Working Groups). These are focused areas of collaboration that help structure contributions and foster deeper engagement. Each Stream is coordinated by at least one Stream Coordinator, who facilitates collaboration, supports contributors, and ensures alignment with community goals. Coordinators are typically active Maintainers or Contributors with domain expertise. Streams can be technical (e.g. PyPSA-Earth) or non-technical (e.g. Outreach).
+
+### Examples of Streams
+
+Here are a few illustrative examples of existing Streams:
+
+| Stream Name     | Focus Area                          | Example Activities                          |
+|-----------------|-------------------------------------|---------------------------------------------|
+| PyPSA-Earth     | Global energy system modeling       | Data integration, new features         |
+| Outreach        | Community growth and engagement     | Events, social media, onboarding            |
+ PyPSA-Distribution | Small-scale multi-energy modeling | High-resolution modeling, off-grid optimization |
+
+A full and up-to-date list of Streams and Working Groups is maintained on the [PyPSA-meets-Earth website](https://pypsa-meets-earth.github.io).
+
+
 ## Decision Making: Lazy Consensus
 
 Most decisions in PyPSA-meets-Earth are made using **lazy consensus**: if no one objects within a reasonable period (typically 5-7 days), the proposal is accepted. Only in rare cases where consensus cannot be reached, a more formal vote may be called (see "Supermajority" below).
 
-## Community Roles and Path to Maintainer
+## Community Roles
 
 Roles apply equally to code and non-code activities (e.g., documentation, community, tools, streams). The following table lists the roles within the PyPSA-meets-Earth community, describing:
 

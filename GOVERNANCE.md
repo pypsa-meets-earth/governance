@@ -6,7 +6,7 @@ This document defines the governance structure for the PyPSA-meets-Earth initiat
 
 PyPSA-meets-Earth is a collaborative open source initiative dedicated to building a transparent, inclusive, and reproducible energy system modeling ecosystem, leveraging the PyPSA framework and contributing to the broader scientific and policy discourse around sustainable transitions. This document outlines how the community collaborates and governs to achieve these goals.
 
-## Groups and Streams
+## Streams
 The PyPSA-meets-Earth initiative is organized in multiple streams each having, each focusing on different aspects of the project. All streams are equally important and interdependent; they can be created. The main streams are:
 - **Code Streams**: stream dedicated to the development and maintenance of the core PyPSA-meets-Earth packages, including features, bug fixes, and releases.
 - **Impact Streams**: streams focused on maximizing the initiative’s reach and accessibility through non-code activities such as outreach, documentation, training, community building, and dissemination, among others.
@@ -171,7 +171,7 @@ Maintainers may step down voluntarily or be removed by lazy consensus (or superm
 Responsible for strategic direction, cross-repo/stream concerns, and governance decisions. Duties include:
 
 - Reviewing, proposing and approving proposals for new sub-projects or streams
-- Establishing Working Groups
+- Establishing Streams
 - Approving governance and role changes
 
 ## Stepping Down / Emeritus Process

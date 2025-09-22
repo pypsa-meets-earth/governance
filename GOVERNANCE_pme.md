@@ -34,7 +34,7 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
       <td>
         <ul>
           <li>Follow the <a href="https://lfprojects.org/policies/code-of-conduct/">Code of Conduct</a></li>
-          <li>Engage in discussions, submit issues and PRs, contribute to code or non-code streams</li>
+          <li>Join and interact on initiatives' platforms, including Discord and Github</li>
         </ul>
       </td>
       <td>None</td>

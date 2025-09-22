@@ -6,6 +6,12 @@ This document defines the governance structure for the PyPSA-meets-Earth initiat
 
 PyPSA-meets-Earth is a collaborative open source initiative dedicated to building a transparent, inclusive, and reproducible energy system modeling ecosystem, leveraging the PyPSA framework and contributing to the broader scientific and policy discourse around sustainable transitions. This document outlines how the community collaborates and governs to achieve these goals.
 
+## Groups and Streams
+The PyPSA-meets-Earth initiative is organized in multiple streams each having, each focusing on different aspects of the project. All streams are equally important and interdependent; they can be created. The main streams are:
+- **Code Stream**: stream dedicated to the development and maintenance of the core PyPSA-meets-Earth packages, including features, bug fixes, and releases.
+- **Impact Stream**: streams focused on activities that aims to have impact without necessarily code activities. Examples include but are not limited to outreach, documentation, among others.
+- **Steering Committee**: it is a special stream responsible for strategic direction, cross-repo/stream concerns, and governance decisions.
+
 ## Decision Making: Lazy Consensus
 
 Most decisions in PyPSA-meets-Earth are made using **lazy consensus**: if no one objects within a reasonable period (typically 5-7 days), the proposal is accepted. Only in rare cases where consensus cannot be reached, a more formal vote may be called (see "Supermajority" below).
@@ -69,6 +75,7 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
           <li>May close/open/reassign issues</li>
           <li>May request PR reviews</li>
           <li>Can mark duplicates</li>
+          <li>Can propose new streams and propose revision to existing ones</li>
         </ul>
       </td>
       <td>Specific repo(s) or streams under pypsa-meets-earth</td>
@@ -80,7 +87,7 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
         <ul>
           <li>Guide project direction and quality</li>
           <li>Help cut releases</li>
-          <li>Mentor contributors</li>
+          <li>Actively engages and mentors contributors</li>
           <li>Review and merge PRs</li>
           <li>Coordinate with other streams (code, docs, tools, community)</li>
         </ul>
@@ -108,7 +115,8 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
         <ul>
           <li>Set roadmap/priorities</li>
           <li>Mentor contributors/Maintainers</li>
-          <li>Vote on governance, roles, RFCs (if consensus fails)</li>
+          <li>Reviews, approves and closes streams</li>
+          <li>Vote on governance and roles</li>
         </ul>
       </td>
       <td>
@@ -120,7 +128,6 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
       <td>
         <ul>
           <li>Org-wide access rights</li>
-          <li>Binding vote on RFCs (if needed)</li>
         </ul>
       </td>
       <td>GitHub organization</td>
@@ -162,10 +169,9 @@ Maintainers may step down voluntarily or be removed by lazy consensus (or superm
 
 Responsible for strategic direction, cross-repo/stream concerns, and governance decisions. Duties include:
 
-- Reviewing proposals for new sub-projects or streams
+- Reviewing, proposing and approving proposals for new sub-projects or streams
 - Establishing Working Groups
 - Approving governance and role changes
-- Voting on significant RFCs (if consensus fails)
 
 ## Stepping Down / Emeritus Process
 

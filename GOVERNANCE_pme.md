@@ -93,10 +93,7 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
       </td>
       <td>
         <ul>
-          <li>Approve and merge PRs</li>
-          <li>Manage releases</li>
-          <li>Moderate discussions</li>
-          <li>Vote on major decisions (if needed)</li>
+          <li>Access Rights to fulfill the goal of the stream/package
         </ul>
       </td>
       <td>Specific repo(s) or streams under pypsa-meets-earth</td>

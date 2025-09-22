@@ -8,8 +8,9 @@ PyPSA-meets-Earth is a collaborative open source initiative dedicated to buildin
 
 ## Groups and Streams
 The PyPSA-meets-Earth initiative is organized in multiple streams each having, each focusing on different aspects of the project. All streams are equally important and interdependent; they can be created. The main streams are:
-- **Code Stream**: stream dedicated to the development and maintenance of the core PyPSA-meets-Earth packages, including features, bug fixes, and releases.
-- **Impact Stream**: streams focused on activities that aims to have impact without necessarily code activities. Examples include but are not limited to outreach, documentation, among others.
+- **Code Streams**: stream dedicated to the development and maintenance of the core PyPSA-meets-Earth packages, including features, bug fixes, and releases.
+- **Impact Streams**: streams focused on maximizing the initiative’s reach and accessibility through non-code activities such as outreach, documentation, training, community building, and dissemination, among others.
+- **Advisory Streams**: streams focused on providing expert guidance, feedback, and mentorship from institutions, companies and experts to support the initiative’s direction, scientific rigor, and alignment with broader community and policy goals.
 - **Steering Committee**: it is a special stream responsible for strategic direction, cross-repo/stream concerns, and governance decisions.
 
 ## Decision Making: Lazy Consensus

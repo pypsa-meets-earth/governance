@@ -105,7 +105,7 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
         <ul>
           <li>Set roadmap/priorities</li>
           <li>Mentor contributors/Maintainers</li>
-          <li>Vote on governance, roles, RFCs (if consensus fails)</li>
+          <li>Vote on governance, roles, (if consensus fails)</li>
         </ul>
       </td>
       <td>
@@ -117,7 +117,6 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
       <td>
         <ul>
           <li>Org-wide access rights</li>
-          <li>Binding vote on RFCs (if needed)</li>
         </ul>
       </td>
       <td>GitHub organization</td>
@@ -162,7 +161,6 @@ Responsible for strategic direction, cross-repo/stream concerns, and governance 
 - Reviewing proposals for new sub-projects or streams
 - Establishing Working Groups
 - Approving governance and role changes
-- Voting on significant RFCs (if consensus fails)
 
 ## Stepping Down / Emeritus Process
 

@@ -8,7 +8,7 @@ PyPSA-meets-Earth is a collaborative open source initiative dedicated to buildin
 
 ## Streams (Working Groups)
 
-To support the diverse activities within PyPSA-meets-Earth, the community is organized into Streams (Working Groups). These are focused areas of collaboration that help structure contributions and foster deeper engagement. Each Stream is coordinated by at least one Stream Coordinator, who facilitates collaboration, supports contributors, and ensures alignment with community goals. Coordinators are typically active Maintainers or Contributors with domain expertise. Streams can be technical (e.g. PyPSA-Earth) or non-technical (e.g. Outreach).
+To support the diverse activities within PyPSA-meets-Earth, the community is organized into Streams (Working Groups). These are focused areas of collaboration that help structure contributions and foster deeper engagement. Each Stream is coordinated by at least one Stream Coordinator, who facilitates collaboration, supports contributors, and ensures alignment with community goals. Coordinators are typically active Contributors with domain expertise. Streams can be technical (e.g. PyPSA-Earth) or non-technical (e.g. Outreach).
 
 ### Examples of Streams
 
@@ -92,7 +92,7 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
     </tr>
     <tr><td colspan="5"><em>Inherits from Contributor</em></td></tr>
     <tr>
-      <td>Maintainer</td>
+      <td>Coordinator (Maintainer)</td>
       <td>
         <ul>
           <li>Guide project direction and quality</li>
@@ -120,19 +120,19 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
       </td>
       <td>Specific repo(s) or streams under pypsa-meets-earth</td>
     </tr>
-    <tr><td colspan="5"><em>Inherits from Maintainer</em></td></tr>
+    <tr><td colspan="5"><em>Inherits from Coordinator</em></td></tr>
     <tr>
       <td>Steering Committee</td>
       <td>
         <ul>
           <li>Set roadmap/priorities</li>
-          <li>Mentor contributors/Maintainers</li>
+          <li>Mentor contributors/Coordinators</li>
           <li>Vote on governance, roles, (if consensus fails)</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Must be a Maintainer</li>
+          <li>Must be a Coordinator</li>
           <li>Highly active in multiple areas</li>
         </ul>
       </td>
@@ -161,20 +161,20 @@ Contributors actively engage with the community and support others across all st
 - Participate actively (e.g., merged PR, regular discussion, or content creation).
 - Recognition is informal and based on ongoing participation.
 
-### Maintainer
+### Coordinator (Maintainer)
 
-Maintainers manage daily project contributions, review PRs, and ensure quality across all streams.
+Coordinators manage daily project contributions, review PRs, and ensure quality across all streams.
 
 #### Nomination Process
 
-1. Open an issue in the community repo using the `maintainer-nomination` label.
-2. Assign current Maintainers as reviewers.
+1. Open an issue in the community repo using the `coordinator-nomination` label.
+2. Assign current Coordinators as reviewers.
 3. Approval is by lazy consensus (if no objections in 7 days, nomination is accepted).
-4. If consensus cannot be reached, a supermajority vote of Maintainers may be called.
+4. If consensus cannot be reached, a supermajority vote of Coordinators may be called.
 
 #### Removal or Resignation
 
-Maintainers may step down voluntarily or be removed by lazy consensus (or supermajority vote if needed) due to inactivity or other circumstances.
+Coordinators may step down voluntarily or be removed by lazy consensus (or supermajority vote if needed) due to inactivity or other circumstances.
 
 ### Steering Committee
 
@@ -186,11 +186,11 @@ Responsible for strategic direction, cross-repo/stream concerns, and governance 
 
 ## Stepping Down / Emeritus Process
 
-Contributors can step down to a lower role or request emeritus status by contacting the Maintainers.
+Contributors can step down to a lower role or request emeritus status by contacting the Coordinators.
 
 ---
 
-**NOTE:** The current list of Maintainers and Steering Committee members is maintained in [MAINTAINERS](MAINTAINERS.md).
+**NOTE:** The current list of Coordinators and Steering Committee members is maintained in [COORDINATORS](COORDINATORS.md).
 
 ## Definitions
 

@@ -18,11 +18,12 @@ To support the diverse activities within PyPSA-meets-Earth, the community is org
 
 Here are a few illustrative examples of existing Streams:
 
-| Stream Name     | Focus Area                          | Example Activities                          |
-|-----------------|-------------------------------------|---------------------------------------------|
-| PyPSA-Earth     | Global energy system modeling       | Data integration, new features         |
-| Outreach        | Community growth and engagement     | Events, social media, onboarding            |
-| PyPSA-Distribution | Small-scale multi-energy modeling | High-resolution modeling, off-grid optimization |
+| Stream Name        | Focus Area                        | Example Activities                              | Stream type   |
+| ------------------ | --------------------------------- | ----------------------------------------------- | ------------- |
+| PyPSA-Earth        | Global energy system modeling     | Data integration, new features                  | Code stream   |
+| Outreach           | Community growth and engagement   | Events, social media, onboarding                | Impact stream |
+| PyPSA-Distribution | Small-scale multi-energy modeling | High-resolution modeling, off-grid optimization | Code stream   |
+
 
 A full and up-to-date list of Streams is maintained on the [PyPSA-meets-Earth website](https://pypsa-meets-earth.github.io).
 

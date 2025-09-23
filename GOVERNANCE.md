@@ -193,9 +193,7 @@ Responsible for strategic direction, cross-repo/stream concerns, and governance 
 
 Contributors can step down to a lower role or request emeritus status by contacting the Coordinators.
 
----
-
-**NOTE:** The current list of Coordinators and Steering Committee members is maintained in [COORDINATORS](COORDINATORS.md).
+**NOTE:** The current list of Coordinators and Steering Committee members is maintained on the [PyPSA-meets-Earth website](https://pypsa-meets-earth.github.io).
 
 ## Definitions
 

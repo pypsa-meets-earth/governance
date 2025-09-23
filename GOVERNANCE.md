@@ -8,9 +8,9 @@ PyPSA-meets-Earth is a collaborative open source initiative dedicated to buildin
 
 ![Overview](overview.png)
 
-## Streams (Working Groups)
+## Streams
 
-To support the diverse activities within PyPSA-meets-Earth, the community is organized into Streams (Working Groups). These are focused areas of collaboration that help structure contributions and foster deeper engagement. Each Stream is coordinated by at least one Stream Coordinator, who facilitates collaboration, supports contributors, and ensures alignment with community goals. Coordinators are typically active Contributors with domain expertise. Streams can be technical (e.g. PyPSA-Earth) or non-technical (e.g. Outreach).
+To support the diverse activities within PyPSA-meets-Earth, the community is organized into Streams. These are focused areas of collaboration that help structure contributions and foster deeper engagement. Each Stream is coordinated by at least one Stream Coordinator, who facilitates collaboration, supports contributors, and ensures alignment with community goals. Coordinators are typically active Contributors with domain expertise. Streams can be technical (e.g. PyPSA-Earth) or non-technical (e.g. Outreach).
 
 ### Examples of Streams
 
@@ -22,7 +22,7 @@ Here are a few illustrative examples of existing Streams:
 | Outreach        | Community growth and engagement     | Events, social media, onboarding            |
  PyPSA-Distribution | Small-scale multi-energy modeling | High-resolution modeling, off-grid optimization |
 
-A full and up-to-date list of Streams and Working Groups is maintained on the [PyPSA-meets-Earth website](https://pypsa-meets-earth.github.io).
+A full and up-to-date list of Streams is maintained on the [PyPSA-meets-Earth website](https://pypsa-meets-earth.github.io).
 
 
 ## Decision Making: Lazy Consensus
@@ -183,7 +183,7 @@ Coordinators may step down voluntarily or be removed by lazy consensus (or super
 Responsible for strategic direction, cross-repo/stream concerns, and governance decisions. Duties include:
 
 - Reviewing proposals for new sub-projects or streams
-- Establishing Working Groups
+- Establishing Streams
 - Approving governance and role changes
 
 ## Stepping Down / Emeritus Process

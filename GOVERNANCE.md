@@ -10,7 +10,9 @@ PyPSA-meets-Earth is a collaborative open source initiative dedicated to buildin
 
 ## Streams
 
-To support the diverse activities within PyPSA-meets-Earth, the community is organized into Streams. These are focused areas of collaboration that help structure contributions and foster deeper engagement. Each Stream is coordinated by at least one Stream Coordinator, who facilitates collaboration, supports contributors, and ensures alignment with community goals. Coordinators are typically active Contributors with domain expertise. Streams can be technical (e.g. PyPSA-Earth) or non-technical (e.g. Outreach).
+To support the diverse activities within PyPSA-meets-Earth, the community is organized into Streams. These are focused areas of collaboration that help structure contributions and foster deeper engagement. Each Stream is coordinated by at least one Stream Coordinator, who facilitates collaboration, supports contributors, and ensures alignment with community goals. Coordinators are typically active Contributors with domain expertise. Streams can be:
+- Code streams (e.g. PyPSA-Earth) or
+- Impact streams (e.g. Outreach).
 
 ### Examples of Streams
 
@@ -20,7 +22,7 @@ Here are a few illustrative examples of existing Streams:
 |-----------------|-------------------------------------|---------------------------------------------|
 | PyPSA-Earth     | Global energy system modeling       | Data integration, new features         |
 | Outreach        | Community growth and engagement     | Events, social media, onboarding            |
- PyPSA-Distribution | Small-scale multi-energy modeling | High-resolution modeling, off-grid optimization |
+| PyPSA-Distribution | Small-scale multi-energy modeling | High-resolution modeling, off-grid optimization |
 
 A full and up-to-date list of Streams is maintained on the [PyPSA-meets-Earth website](https://pypsa-meets-earth.github.io).
 

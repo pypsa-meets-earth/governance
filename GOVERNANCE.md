@@ -168,7 +168,9 @@ Contributors actively engage with the community and support others across all st
 
 ### Coordinator (Maintainer)
 
-Coordinators manage daily project contributions, review PRs, and ensure quality across all streams.
+Coordinators manage daily project contributions, review PRs, and ensure quality across all streams. Each coordinator has independence over their areas and collaborates with others. Coordinators of code-projects periodically release versions of the package, ideally every 4--6 months.
+
+In consolidated packages, for simple activities (e.g., documentation updates), a single coordinator can approve and merge changes and for major ones (e.g., complex and breaking features), two coordinators are preferred provided timely revision. In packages under development and exploratory phases, a single coordinator can approve and merge changes to facilitate rapid iteration.
 
 #### Nomination Process
 

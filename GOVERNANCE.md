@@ -170,7 +170,7 @@ Contributors actively engage with the community and support others across all st
 
 Coordinators manage daily project contributions, review PRs, and ensure quality across all streams. Each coordinator has independence over their areas while acting in accordance with the project values and collaborating with others. Coordinators of code repositories (maintainers) periodically release versions of the package, ideally every 4--6 months.
 
-In consolidated packages, for simple activities (e.g., documentation updates), a single coordinator can approve and merge changes and for major ones (e.g., complex and breaking features), two coordinators are preferred provided timely revision. In packages under development and exploratory phases, a single coordinator can approve and merge changes to facilitate rapid iteration.
+In code repositories, a code review with approval by maintainers is mandatory to merge changes. For simple activities (e.g., typo fixes), involvement of one maintainer is enough unless there is an explicit request for other opinions. For major changes (e.g., complex and breaking features), having review by two maintainers is preferred provided timely revision. In packages under development and exploratory phases, a single maintainer can approve and merge changes to facilitate rapid iteration.
 
 #### Nomination Process
 

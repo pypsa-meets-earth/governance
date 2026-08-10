@@ -100,10 +100,10 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
       <td>Core Developer</td>
       <td>
         <ul>
-          <li>Report and help resolve issues</li>
+          <li>Proposes and implements new features</li>
+          <li>Contributes into bug-fixing and maintainance</li>
           <li>Answer community questions</li>
-          <li>Review and provide feedback on issues/PRs</li>
-          <li>Contribute to code, documentation, tools, or community streams</li>
+          <li>Review, provide feedback and approve on issues/PRs</li>
         </ul>
       </td>
       <td>
@@ -113,7 +113,7 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
       </td>
       <td>
         <ul>
-          <li>Can review PRs</li>
+          <li>Can review and approve PRs</li>
           <li>May close/open/reassign issues</li>
           <li>May request PR reviews</li>
           <li>Can mark duplicates</li>

@@ -95,7 +95,33 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
       </td>
       <td>Specific repo(s) or streams under pypsa-meets-earth</td>
     </tr>
-    <tr><td colspan="5"><em>Inherits from Contributor</em></td></tr>
+    <tr><td colspan="5"><em>Inherits from Participant</em></td></tr>
+    <tr>
+      <td>Core Developer</td>
+      <td>
+        <ul>
+          <li>Report and help resolve issues</li>
+          <li>Answer community questions</li>
+          <li>Review and provide feedback on issues/PRs</li>
+          <li>Contribute to code, documentation, tools, or community streams</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Active participation (e.g., merged contribution, regular discussion, or content creation)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Can review PRs</li>
+          <li>May close/open/reassign issues</li>
+          <li>May request PR reviews</li>
+          <li>Can mark duplicates</li>
+        </ul>
+      </td>
+      <td>Specific repo(s) or streams under pypsa-meets-earth</td>
+    </tr>    
+    <tr><td colspan="5"><em>Inherits from Core Developer</em></td></tr>
     <tr>
       <td>Coordinator (Maintainer)</td>
       <td>

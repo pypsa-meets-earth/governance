@@ -166,6 +166,25 @@ Contributors actively engage with the community and support others across all st
 - Participate actively (e.g., merged PR, regular discussion, or content creation).
 - Recognition is informal and based on ongoing participation.
 
+### Core Developer (only code and modelling streams)
+
+Core Developers drive daily project contributions, review and approve PRs aligning with Coordinators on quality requirements and development priorities. Each Core Developer is free in choising their preferred way to contribute but must align with maintainers to ensure a suggested contribution is consistens with the stream priorities, conventions and values. Core Developers can contribute into creating long-term developement roadmaps
+
+In code repositories, a code review with approval by core developers is meaningful for a decision to merge changes.
+
+#### Becoming a Core Developer
+
+- Experience in using major tool of a specific stream
+- Meaningful contributions (merged PRs, developed architecture of meaningful features)
+
+#### Nomination Process
+
+1. Nomination by one of stream Coordinators
+2. Open an issue in the community repo using the `core-developer-nomination` label.
+3. Assign current Coordinators as reviewers.
+4. Approval is by lazy consensus (if no objections in 7 days, nomination is accepted).
+5. If consensus cannot be reached, a supermajority vote of Coordinators may be called.
+
 ### Coordinator (Maintainer)
 
 Coordinators manage daily project contributions, review PRs, and ensure quality across all streams. Each coordinator has independence over their areas while acting in accordance with the project values and collaborating with others. Coordinators of code repositories (maintainers) periodically release versions of the package, ideally every 4--6 months.

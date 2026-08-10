@@ -95,7 +95,33 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
       </td>
       <td>Specific repo(s) or streams under pypsa-meets-earth</td>
     </tr>
-    <tr><td colspan="5"><em>Inherits from Contributor</em></td></tr>
+    <tr><td colspan="5"><em>Inherits from Participant</em></td></tr>
+    <tr>
+      <td>Core Developer</td>
+      <td>
+        <ul>
+          <li>Proposes and implements new features</li>
+          <li>Contributes into bug-fixing and maintainance</li>
+          <li>Answer community questions</li>
+          <li>Review, provide feedback and approve on issues/PRs</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Active participation (e.g., merged contribution, regular discussion, or content creation)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Can review and approve PRs</li>
+          <li>May close/open/reassign issues</li>
+          <li>May request PR reviews</li>
+          <li>Can mark duplicates</li>
+        </ul>
+      </td>
+      <td>Specific repo(s) or streams under pypsa-meets-earth</td>
+    </tr>    
+    <tr><td colspan="5"><em>Inherits from Core Developer</em></td></tr>
     <tr>
       <td>Coordinator (Maintainer)</td>
       <td>
@@ -166,18 +192,42 @@ Contributors actively engage with the community and support others across all st
 - Participate actively (e.g., merged PR, regular discussion, or content creation).
 - Recognition is informal and based on ongoing participation.
 
+### Core Developer (only code and modelling streams)
+
+Core Developers drive daily project contributions, review and approve PRs aligning with Coordinators on quality requirements and development priorities. Each Core Developer is free in choising their preferred way to contribute but must align with maintainers to ensure a suggested contribution is consistens with the stream priorities, conventions and values. Core Developers can contribute into creating long-term developement roadmaps
+
+In code repositories, a code review with approval by core developers is meaningful for a decision to merge changes.
+
+#### Becoming a Core Developer
+
+- Experience in using major tool of a specific stream
+- Meaningful contributions (merged PRs, developed architecture of meaningful features)
+
+#### Nomination Process
+
+1. Nomination by one of stream Coordinators
+2. Open an issue in the community repo using the `core-developer-nomination` label.
+3. Assign current Coordinators as reviewers.
+4. Approval is by lazy consensus (if no objections in 7 days, nomination is accepted).
+5. If consensus cannot be reached, a supermajority vote of Coordinators may be called.
+
 ### Coordinator (Maintainer)
 
-Coordinators manage daily project contributions, review PRs, and ensure quality across all streams. Each coordinator has independence over their areas while acting in accordance with the project values and collaborating with others. Coordinators of code repositories (maintainers) periodically release versions of the package, ideally every 4--6 months.
+For bigger workstreams, coordinators manage daily project contributions, review and merge PRs, co-creating long-term development roadmaps, and ensure quality across all streams. Each coordinator has independence over their areas while acting in accordance with the project values and collaborating with others.
+
+ Coordinators of code repositories (maintainers) periodically release versions of the package, ideally every 4--6 months.
 
 In code repositories, a code review with approval by maintainers is mandatory to merge changes. For simple activities (e.g., typo fixes), involvement of one maintainer is enough unless there is an explicit request for other opinions. For major changes (e.g., complex and breaking features), having review by two maintainers is preferred provided timely revision. In packages in an early development phase and exploratory phases, a single maintainer can approve and merge changes to facilitate rapid iteration.
 
 #### Nomination Process
 
-1. Open an issue in the community repo using the `coordinator-nomination` label.
-2. Assign current Coordinators as reviewers.
-3. Approval is by lazy consensus (if no objections in 7 days, nomination is accepted).
-4. If consensus cannot be reached, a supermajority vote of Coordinators may be called.
+1. Nomination by one of Steering Commitee members
+2. Open an issue in the community repo using the `coordinator-nomination` label.
+3. Assign current Coordinators as reviewers.
+4. Approval is by lazy consensus (if no objections in 7 days, nomination is accepted).
+5. If consensus cannot be reached, a supermajority vote of Coordinators may be called.
+
+For new streams, the nomination procedure can be bypassed for an author of the stream concept, provided the author is Contributor and their way of working is consistent with the core values of the initiative 
 
 #### Removal or Resignation
 

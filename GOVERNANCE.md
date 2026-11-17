@@ -101,7 +101,7 @@ Roles apply equally to code and non-code activities (e.g., documentation, commun
       <td>
         <ul>
           <li>Proposes and implements new features</li>
-          <li>Contributes into bug-fixing and maintainance</li>
+          <li>Contributes into bug-fixing and maintenance</li>
           <li>Answer community questions</li>
           <li>Review, provide feedback and approve on issues/PRs</li>
         </ul>
@@ -194,7 +194,7 @@ Contributors actively engage with the community and support others across all st
 
 ### Core Developer (only code and modelling streams)
 
-Core Developers drive daily project contributions, review and approve PRs aligning with Coordinators on quality requirements and development priorities. Each Core Developer is free in choising their preferred way to contribute but must align with maintainers to ensure a suggested contribution is consistens with the stream priorities, conventions and values. Core Developers can contribute into creating long-term developement roadmaps.
+Core Developers drive daily project contributions, review and approve PRs aligning with Coordinators on quality requirements and development priorities. Each Core Developer is free in choosing their preferred way to contribute but must align with maintainers to ensure a suggested contribution is consistent with the stream priorities, conventions and values. Core Developers can contribute into creating long-term development roadmaps.
 
 In code repositories, a code review with approval by core developers is meaningful for a decision to merge changes.
 
@@ -205,11 +205,7 @@ In code repositories, a code review with approval by core developers is meaningf
 
 #### Nomination Process
 
-1. Nomination by one of stream Coordinators
-2. Open an issue in the community repo using the `core-developer-nomination` label.
-3. Assign current Coordinators as reviewers.
-4. Approval is by lazy consensus (if no objections in 7 days, nomination is accepted).
-5. If consensus cannot be reached, a supermajority vote of Coordinators may be called.
+A stream Coordinator nominates the candidate. The Coordinators of the stream align on the nomination. Approval is by lazy consensus: if no one objects within 7 days, the nomination is accepted. A supermajority vote of the Coordinators is only a fallback if consensus cannot be reached.
 
 ### Coordinator (Maintainer)
 
@@ -221,11 +217,7 @@ In code repositories, a code review with approval by maintainers is mandatory to
 
 #### Nomination Process
 
-1. Nomination by one of Steering Commitee members
-2. Open an issue in the community repo using the `coordinator-nomination` label.
-3. Assign current Coordinators as reviewers.
-4. Approval is by lazy consensus (if no objections in 7 days, nomination is accepted).
-5. If consensus cannot be reached, a supermajority vote of Coordinators may be called.
+A Steering Committee member nominates the candidate. The Steering Committee members align on the nomination. Approval is by lazy consensus: if no one objects within 7 days, the nomination is accepted. A supermajority vote of the Steering Committee is only a fallback if consensus cannot be reached.
 
 For new streams, the nomination procedure can be bypassed for an author of the stream concept, provided the author is Contributor and their way of working is consistent with the core values of the initiative 
 
